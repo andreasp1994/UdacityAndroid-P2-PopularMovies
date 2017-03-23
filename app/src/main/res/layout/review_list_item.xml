@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_movie_review_author"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:text="Review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_movie_review_content"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_movie_review_author"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_movie_review_author" />
+
+    <TextView
+        android:text="@string/movie_review_author_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginStart="4dp"
+        app:layout_constraintLeft_toRightOf="@+id/tv_movie_review_author"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintTop_toTopOf="@+id/tv_movie_review_author" />
+</android.support.constraint.ConstraintLayout>

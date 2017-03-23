@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Udacity Movies</string>
+
+    <string name="movies_menu_top_rated">Top Rated</string>
+    <string name="movies_menu_popular">Popular</string>
+    <string name="movies_menu_favourite">Favourites</string>
+
+    <string name="movie_test_title">Test Title</string>
+
+    <string name="movie_details_overview">Overview:</string>
+    <string name="movie_details_release_date">Release Date:</string>
+    <string name="movie_details_rating">Rating:</string>
+
+    <string name="movie_fetch_error_msg">Error while fetching movies! </string>
+    <string name="movie_fetch_connection_error_msg">Error! Check you internet connection!</string>
+
+    <string name="movie_added_to_favourites">Movie has been added to favourites!</string>
+    <string name="movie_removed_from_favourites">Movie has been removed from favourites!</string>
+
+    <string name="trailers_caption">Trailers</string>
+    <string name="reviews_caption">Reviews</string>
+    <string name="movie_review_author_text">wrote:</string>
+</resources>

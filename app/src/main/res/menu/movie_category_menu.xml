@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The menu found in initial movies page  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MoviesActivity">
+    <item
+        android:id="@+id/movies_menu_top_rated"
+        android:orderInCategory="1"
+        android:title="@string/movies_menu_top_rated"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/movies_menu_popular"
+        android:orderInCategory="1"
+        android:title="@string/movies_menu_popular"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/movies_menu_favourite"
+        android:orderInCategory="1"
+        android:title="@string/movies_menu_favourite"
+        app:showAsAction="ifRoom"/>
+</menu>
